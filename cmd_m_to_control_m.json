@@ -5,25 +5,27 @@
         "manipulators": [{
             "type": "basic",
             "from": {
-                "key_code": "left_command",
+                "key_code": "m",
                 "modifiers": {
+                    "mandatory": ["left_control"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "left_control",
+                "key_code": "left_command",
                 "modifiers": ["m"]
             }]
-        },{
+        }, {
             "type": "basic",
             "from": {
-                "key_code": "left_control",
+                "key_code": "m",
                 "modifiers": {
+                    "mandatory": ["left_command"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "left_command",
+                "key_code": "left_control",
                 "modifiers": ["m"]
             }]
         }]
