@@ -1,7 +1,7 @@
 {
-    "title": "Left Ctrl+C to Right CMD+C",
+    "title": "Right CMD+C aim Left Ctrl+C, Right CMD+R aim Left Ctrl+R",
     "rules": [{
-        "description": "Set left_control+c to right_command+c",
+        "description": "Set right_command+c aim left_control+c, right_command+r aim left_control+r",
         "manipulators": [{
             "type": "basic",
             "from": {
@@ -13,6 +13,19 @@
             },
             "to": [{
                 "key_code": "c",
+                "modifiers": ["left_control"]
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "r",
+                "modifiers": {
+                    "mandatory": ["right_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "r",
                 "modifiers": ["left_control"]
             }]
         }]
