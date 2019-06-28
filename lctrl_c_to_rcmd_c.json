@@ -1,0 +1,20 @@
+{
+    "title": "Left Ctrl+C to Right CMD+C",
+    "rules": [{
+        "description": "Set left_control+c to right_command+c",
+        "manipulators": [{
+            "type": "basic",
+            "from": {
+                "key_code": "c",
+                "modifiers": {
+                    "mandatory": ["right_command"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "c",
+                "modifiers": ["left_control"]
+            }]
+        }]
+    }]
+}
