@@ -5,25 +5,25 @@
         "manipulators": [{
             "type": "basic",
             "from": {
-                "key_code": "left_control",
+                "key_code": "left_command",
                 "modifiers": {
                     "optional": ["m"]
                 }
             },
             "to": [{
-                "key_code": "left_command",
+                "key_code": "left_control",
                 "modifiers": ["m"]
             }]
         }, {
             "type": "basic",
             "from": {
-                "key_code": "left_command",
+                "key_code": "left_control",
                 "modifiers": {
                     "optional": ["m"]
                 }
             },
             "to": [{
-                "key_code": "left_control",
+                "key_code": "left_command",
                 "modifiers": ["m"]
             }]
         }]
