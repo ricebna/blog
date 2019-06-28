@@ -7,19 +7,19 @@
             "from": {
                 "key_code": "left_command",
                 "modifiers": {
-                    "optional": ["m"]
+                    "optional": ["any"]
                 }
             },
             "to": [{
                 "key_code": "left_control",
                 "modifiers": ["m"]
             }]
-        }, {
+        },{
             "type": "basic",
             "from": {
                 "key_code": "left_control",
                 "modifiers": {
-                    "optional": ["m"]
+                    "optional": ["any"]
                 }
             },
             "to": [{
