@@ -12,8 +12,8 @@
                 }
             },
             "to": [{
-                "key_code": "left_command",
-                "modifiers": ["m"]
+                "key_code": "m",
+                "modifiers": ["left_command"]
             }]
         }, {
             "type": "basic",
@@ -25,8 +25,8 @@
                 }
             },
             "to": [{
-                "key_code": "left_control",
-                "modifiers": ["m"]
+                "key_code": "m",
+                "modifiers": ["left_control"]
             }]
         }]
     }]
