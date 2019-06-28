@@ -1,6 +1,7 @@
 {
-    "title": "Swap separate and underline",
+    "title": "Swap hyphen and underline key",
     "rules": [{
+        "description":"Swap hyphen and underline key",
         "manipulators": [{
             "type": "basic",
             "from": {
