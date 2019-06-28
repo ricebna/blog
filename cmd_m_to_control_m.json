@@ -1,0 +1,31 @@
+{
+    "title": "CMD+M to Ctrl+M",
+    "rules": [{
+        "description": "Set left_command+m to left_control+m",
+        "manipulators": [{
+            "type": "basic",
+            "from": {
+                "key_code": "left_control",
+                "modifiers": {
+                    "optional": ["m"]
+                }
+            },
+            "to": [{
+                "key_code": "left_command",
+                "modifiers": ["m"]
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "left_command",
+                "modifiers": {
+                    "optional": ["m"]
+                }
+            },
+            "to": [{
+                "key_code": "left_control",
+                "modifiers": ["m"]
+            }]
+        }]
+    }]
+}
