@@ -1,7 +1,7 @@
 {
     "title": "Swap Backslash to vertical line",
     "rules": [{
-        "description":"Swap Backslash to vertical line",
+        "description": "Swap Backslash to vertical line",
         "manipulators": [{
             "type": "basic",
             "from": {
@@ -26,4 +26,3 @@
         }]
     }]
 }
-
