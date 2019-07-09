@@ -564,12 +564,12 @@
             "from": {
                 "key_code": "9",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "9",
-                "modifiers": ["shift"]
+                "key_code": "9"
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -581,12 +581,12 @@
             "from": {
                 "key_code": "0",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "0",
-                "modifiers": ["shift"]
+                "key_code": "0"
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -632,12 +632,12 @@
             "from": {
                 "key_code": "open_bracket",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "open_bracket",
-                "modifiers": ["shift"]
+                "key_code": "open_bracket"
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -649,12 +649,12 @@
             "from": {
                 "key_code": "close_bracket",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "close_bracket",
-                "modifiers": ["shift"]
+                "key_code": "close_bracket"
             }],
             "conditions": [{
                 "type": "variable_if",
