@@ -664,13 +664,14 @@
         }, {
             "type": "basic",
             "from": {
-                "key_code": "semicolon",
+                "key_code": "backslash",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "semicolon",
+                "key_code": "backslash",
                 "modifiers": ["shift"]
             }],
             "conditions": [{
@@ -681,13 +682,13 @@
         }, {
             "type": "basic",
             "from": {
-                "key_code": "backslash",
+                "key_code": "semicolon",
                 "modifiers": {
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "backslash",
+                "key_code": "semicolon",
                 "modifiers": ["shift"]
             }],
             "conditions": [{
