@@ -671,8 +671,7 @@
                 }
             },
             "to": [{
-                "key_code": "backslash",
-                "modifiers": ["shift"]
+                "key_code": "backslash"
             }],
             "conditions": [{
                 "type": "variable_if",
