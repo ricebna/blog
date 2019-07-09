@@ -14,30 +14,6 @@
         }, {
             "type": "basic",
             "from": {
-                "key_code": "open_bracket",
-                "modifiers": {
-                    "mandatory": ["shift"],
-                    "optional": ["any"]
-                }
-            },
-            "to": [{
-                "key_code": "open_bracket"
-            }]
-        }, {
-            "type": "basic",
-            "from": {
-                "key_code": "close_bracket",
-                "modifiers": {
-                    "mandatory": ["shift"],
-                    "optional": ["any"]
-                }
-            },
-            "to": [{
-                "key_code": "close_bracket"
-            }]
-        }, {
-            "type": "basic",
-            "from": {
                 "key_code": "close_bracket"
             },
             "to": [{
