@@ -422,7 +422,7 @@
             }]
         }]
     }, {
-        "description": "SpaceFN: Space+(1-9, -, =, [, ], ;, ', ,, .) to shift+it",
+        "description": "SpaceFN: Space+(1-8, -, =, ;, ', ,, .) to shift+it",
         "manipulators": [{
             "type": "basic",
             "from": {
@@ -562,40 +562,6 @@
         }, {
             "type": "basic",
             "from": {
-                "key_code": "9",
-                "modifiers": {
-                    "mandatory": ["space"],
-                    "optional": ["any"]
-                }
-            },
-            "to": [{
-                "key_code": "9"
-            }],
-            "conditions": [{
-                "type": "variable_if",
-                "name": "spacefn_mode",
-                "value": 1
-            }]
-        }, {
-            "type": "basic",
-            "from": {
-                "key_code": "0",
-                "modifiers": {
-                    "mandatory": ["space"],
-                    "optional": ["any"]
-                }
-            },
-            "to": [{
-                "key_code": "0"
-            }],
-            "conditions": [{
-                "type": "variable_if",
-                "name": "spacefn_mode",
-                "value": 1
-            }]
-        }, {
-            "type": "basic",
-            "from": {
                 "key_code": "hyphen",
                 "modifiers": {
                     "optional": ["any"]
@@ -621,23 +587,6 @@
             "to": [{
                 "key_code": "equal_sign",
                 "modifiers": ["shift"]
-            }],
-            "conditions": [{
-                "type": "variable_if",
-                "name": "spacefn_mode",
-                "value": 1
-            }]
-        },{
-            "type": "basic",
-            "from": {
-                "key_code": "close_bracket",
-                "modifiers": {
-                    "mandatory": ["space"],
-                    "optional": ["any"]
-                }
-            },
-            "to": [{
-                "key_code": "close_bracket"
             }],
             "conditions": [{
                 "type": "variable_if",
