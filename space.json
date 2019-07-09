@@ -422,7 +422,7 @@
             }]
         }]
     }, {
-        "description": "SpaceFN: Space+(1-8, -, =, ;, ', ,, .) to shift+it, Space+(9,0,[,],') to it self",
+        "description": "SpaceFN: Space+(1-8, -, =, \\, ;, ', ,, ., /) to shift+it, Space+(9,0,[,],') to it self",
         "manipulators": [{
             "type": "basic",
             "from": {
@@ -681,6 +681,23 @@
         }, {
             "type": "basic",
             "from": {
+                "key_code": "backslash",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "backslash",
+                "modifiers": ["shift"]
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
+            }]
+        }, {
+            "type": "basic",
+            "from": {
                 "key_code": "quote",
                 "modifiers": {
                     "mandatory": ["space"],
@@ -722,6 +739,23 @@
             },
             "to": [{
                 "key_code": "period",
+                "modifiers": ["shift"]
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "slash",
+                "modifiers": {
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "slash",
                 "modifiers": ["shift"]
             }],
             "conditions": [{
