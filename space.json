@@ -422,7 +422,7 @@
             }]
         }]
     }, {
-        "description": "SpaceFN: Space+(1-8, -, =, ;, ', ,, .) to shift+it",
+        "description": "SpaceFN: Space+(1-8, -, =, ;, ', ,, .) to shift+it, Space+(9,0,[,],') to it self",
         "manipulators": [{
             "type": "basic",
             "from": {
@@ -562,6 +562,40 @@
         }, {
             "type": "basic",
             "from": {
+                "key_code": "9",
+                "modifiers": {
+                    "mandatory": ["space"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "9"
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "0",
+                "modifiers": {
+                    "mandatory": ["space"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "0"
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
+            }]
+        }, {
+            "type": "basic",
+            "from": {
                 "key_code": "hyphen",
                 "modifiers": {
                     "optional": ["any"]
@@ -596,6 +630,40 @@
         }, {
             "type": "basic",
             "from": {
+                "key_code": "open_bracket",
+                "modifiers": {
+                    "mandatory": ["space"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "open_bracket"
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "close_bracket",
+                "modifiers": {
+                    "mandatory": ["space"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "close_bracket"
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
+            }]
+        }, {
+            "type": "basic",
+            "from": {
                 "key_code": "semicolon",
                 "modifiers": {
                     "optional": ["any"]
@@ -615,12 +683,12 @@
             "from": {
                 "key_code": "quote",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "quote",
-                "modifiers": ["shift"]
+                "key_code": "quote"
             }],
             "conditions": [{
                 "type": "variable_if",
