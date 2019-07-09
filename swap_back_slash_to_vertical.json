@@ -1,0 +1,29 @@
+{
+    "title": "Swap Back_slash to vertical line",
+    "rules": [{
+        "description":"Swap Back_slash to vertical line",
+        "manipulators": [{
+            "type": "basic",
+            "from": {
+                "key_code": "back_slash"
+            },
+            "to": [{
+                "key_code": "back_slash",
+                "modifiers": ["shift"]
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "back_slash",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "back_slash"
+            }]
+        }]
+    }]
+}
+
