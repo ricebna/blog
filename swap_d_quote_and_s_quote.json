@@ -1,0 +1,29 @@
+{
+    "title": "Swap double quote and single quote",
+    "rules": [{
+        "description":"Swap double quote and single quote",
+        "manipulators": [{
+            "type": "basic",
+            "from": {
+                "key_code": "hyphen"
+            },
+            "to": [{
+                "key_code": "hyphen",
+                "modifiers": ["shift"]
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "hyphen",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "hyphen"
+            }]
+        }]
+    }]
+}
+

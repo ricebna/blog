@@ -1,0 +1,49 @@
+{
+    "title": "Swap 9 0 to ( )",
+    "rules": [{
+        "description":"Swap 9 0 to ( )",
+        "manipulators": [{
+            "type": "basic",
+            "from": {
+                "key_code": "9"
+            },
+            "to": [{
+                "key_code": "9",
+                "modifiers": ["shift"]
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "9",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "9"
+            }]
+        },{
+            "type": "basic",
+            "from": {
+                "key_code": "0"
+            },
+            "to": [{
+                "key_code": "0",
+                "modifiers": ["shift"]
+            }]
+        }, {
+            "type": "basic",
+            "from": {
+                "key_code": "0",
+                "modifiers": {
+                    "mandatory": ["shift"],
+                    "optional": ["any"]
+                }
+            },
+            "to": [{
+                "key_code": "0"
+            }]
+        }]
+    }]
+}
