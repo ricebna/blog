@@ -751,6 +751,7 @@
             "from": {
                 "key_code": "slash",
                 "modifiers": {
+                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
