@@ -707,6 +707,11 @@
             "to": [{
                 "key_code": "single_quote",
                 "modifiers": ["shift"]
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
             }]
         }, {
             "type": "basic",
