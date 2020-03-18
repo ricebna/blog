@@ -564,12 +564,12 @@
             "from": {
                 "key_code": "9",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "9"
+                "key_code": "9",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -581,12 +581,12 @@
             "from": {
                 "key_code": "0",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "0"
+                "key_code": "0",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -632,12 +632,12 @@
             "from": {
                 "key_code": "open_bracket",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "open_bracket"
+                "key_code": "open_bracket",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -649,12 +649,12 @@
             "from": {
                 "key_code": "close_bracket",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "close_bracket"
+                "key_code": "close_bracket",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -666,7 +666,6 @@
             "from": {
                 "key_code": "backslash",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
@@ -700,12 +699,12 @@
             "from": {
                 "key_code": "quote",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "quote"
+                "key_code": "quote",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
