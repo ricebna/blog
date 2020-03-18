@@ -1,5 +1,5 @@
 {
-    "title": "SpaceFN + any",
+    "title": "SpaceFN Mode",
     "rules": [{
         "description": "SpaceFN: Space enables SpaceFN mode (see: https://geekhack.org/index.php?topic=51069.0)",
         "manipulators": [{
@@ -707,11 +707,6 @@
             "to": [{
                 "key_code": "single_quote",
                 "modifiers": ["shift"]
-            }],
-            "conditions": [{
-                "type": "variable_if",
-                "name": "spacefn_mode",
-                "value": 1
             }]
         }, {
             "type": "basic",
