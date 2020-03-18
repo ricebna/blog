@@ -705,7 +705,8 @@
                 }
             },
             "to": [{
-                "key_code": "single_quote"
+                "key_code": "single_quote",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -751,13 +752,17 @@
             "from": {
                 "key_code": "slash",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
                 "key_code": "slash",
                 "modifiers": ["shift"]
+            }],
+            "conditions": [{
+                "type": "variable_if",
+                "name": "spacefn_mode",
+                "value": 1
             }]
         }]
     }]
