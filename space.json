@@ -700,12 +700,12 @@
             "from": {
                 "key_code": "quote",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "quote"
+                "key_code": "quote",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
