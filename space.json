@@ -751,12 +751,12 @@
             "from": {
                 "key_code": "slash",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "slash"
+                "key_code": "slash",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
