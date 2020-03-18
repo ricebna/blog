@@ -632,12 +632,12 @@
             "from": {
                 "key_code": "open_bracket",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "open_bracket"
+                "key_code": "open_bracket",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
