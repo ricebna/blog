@@ -758,11 +758,6 @@
             "to": [{
                 "key_code": "slash",
                 "modifiers": ["shift"]
-            }],
-            "conditions": [{
-                "type": "variable_if",
-                "name": "spacefn_mode",
-                "value": 1
             }]
         }]
     }]
