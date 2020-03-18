@@ -649,12 +649,12 @@
             "from": {
                 "key_code": "close_bracket",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "close_bracket"
+                "key_code": "close_bracket",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -666,12 +666,12 @@
             "from": {
                 "key_code": "backslash",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
             "to": [{
-                "key_code": "backslash"
+                "key_code": "backslash",
+                "modifiers": ["shift"]
             }],
             "conditions": [{
                 "type": "variable_if",
@@ -700,7 +700,6 @@
             "from": {
                 "key_code": "single_quote",
                 "modifiers": {
-                    "mandatory": ["space"],
                     "optional": ["any"]
                 }
             },
